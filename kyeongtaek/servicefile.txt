@@ -1,0 +1,23 @@
+# 경로 : /etc/systemd/system/climatesensor.service
+
+[Unit]
+Description=Climate Sensor Data Collector
+After=network.target i2c-tools.service
+
+[Service]
+ExecStart=/usr/bin/python3 /home/rasp5/opensrc5/yeyoung/main.py
+WorkingDirectory=/home/rasp5/opensrc5/yeyoung
+
+StandardOutput=append:/home/rasp5/opensrc5/sensor_run.log
+StandardError=append:/home/rasp5/opensrc5/error.log
+Restart=always
+RestartSec=10
+User=rasp5
+
+[Install]
+WantedBy=multi-user.target
+
+# 활성화
+# sudo systemctl daemon-reload
+# sudo systemctl enable climatesensor
+# sudo systemctl start climatesensor
