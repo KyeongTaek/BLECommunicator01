@@ -24,7 +24,12 @@ class Advertisement(dbus.service.Object):
         self.service_uuids = bluetooth_constants.DEVICE_INF_SVC_UUID
         self.manufacturer_data = None
         self.solicit_uuids = None
-        self.service_data = {}
+
+        # Add 13byte dummy data to service_data
+        self.service_data = {
+                bluetooth_constants.DEVICE_INF_SVC_UUID: dbus.ByteArray(bytes([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66]))
+        }
+
         self.local_name = "Opensrc_team5"
         self.include_tx_power = False
         self.data = None
