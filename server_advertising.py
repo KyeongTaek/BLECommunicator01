@@ -21,7 +21,7 @@ class Advertisement(dbus.service.Object):
         self.bus = bus
         self.ad_type = advertising_type
 
-        self.service_uuids = [SERVICE_UUID]
+        self.service_uuids = bluetooth_constants.DEVICE_INF_SVC_UUID
         self.manufacturer_data = None
         self.solicit_uuids = None
         self.service_data = {}
