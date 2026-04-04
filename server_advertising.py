@@ -20,20 +20,20 @@ class Advertisement(dbus.service.Object):
         self.path = self.PATH_BASE + str(index)
         self.bus = bus
         self.ad_type = advertising_type
-
-        self.service_uuids = bluetooth_constants.ENVIRONMENT_SENSING_UUID
+        self.service_uuids = [dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID)] # BlueZ가 이해할 수 있도록, uuid를 리스트로 둘러쌈.
         self.manufacturer_data = None
         self.solicit_uuids = None
 
         # Add 13byte dummy data to service_data
         self.service_data = {
-                bluetooth_constants.ENVIRONMENT_SENSING_UUID: dbus.ByteArray(bytes([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66]))
+                dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66]) # dbus.String으로 변환
         }
 
         self.local_name = "Opensrc_team5"
         self.include_tx_power = False
         self.data = None
         self.discoverable = True
+        self._last_payload = None # 이전 패킷 담는 변수
 
         dbus.service.Object.__init__(self, bus, self.path)
 
@@ -57,10 +57,10 @@ class Advertisement(dbus.service.Object):
     @dbus.service.method(bluetooth_constants.DBUS_PROPERTIES,
             in_signature='s',
             out_signature='a{sv}')
-    def GetAll(self, interface):
+    def GetAll(self, interface):  # 인터페이스에서 모든 속성 한번에 조회하는 메서드
         if interface != bluetooth_constants.ADVERTISEMENT_INTERFACE:
             raise bluetooth_exceptions.InvalidArgsException()
-        return self.get_properties()[bluetooth_constants.ADVERTISING_MANAGER_INTERFACE]
+        return self.get_properties()['org.bluez.LEAdvertisement1'] # 속성을 꺼낼 인터페이스를 '광고 데이터 인터페이스'로 설정
 
     @dbus.service.method(bluetooth_constants.ADVERTISING_MANAGER_INTERFACE,
             in_signature='',

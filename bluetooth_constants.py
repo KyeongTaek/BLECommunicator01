@@ -52,7 +52,8 @@ UUID_NAMES = {
     "00002902-0000-1000-8000-00805f9b34fb" : "Client Characteristic Configuration",
     
     # 환경 센싱 uuid 추가
-    "0000181a-0000-1000-8000-00805f9b34fb" : "Environment Sensing Service",
+#    "0000181a-0000-1000-8000-00805f9b34fb" : "Environment Sensing Service",
+    "181a" : "Environment Sensing Service",
 }    
 
 DEVICE_INF_SVC_UUID = "0000180a-0000-1000-8000-00805f9b34fb"
@@ -65,4 +66,5 @@ LED_SVC_UUID = "e95dd91d-251d-470a-a062-fa1922dfa9a8"
 LED_TEXT_CHR_UUID = "e95d93ee-251d-470a-a062-fa1922dfa9a8"
 
 # 환경 센싱 uuid 상수 추가
-ENVIRONMENT_SENSING_UUID = "0000181a-0000-1000-8000-00805f9b34fb"
+#ENVIRONMENT_SENSING_UUID = "0000181a-0000-1000-8000-00805f9b34fb"
+ENVIRONMENT_SENSING_UUID = "181a"
