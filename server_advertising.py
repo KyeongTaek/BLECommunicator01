@@ -111,22 +111,26 @@ def start_advertising():
                                         reply_handler=register_ad_cb, # 성공 시 콜백 함수 지정
                                         error_handler=register_ad_error_cb) # 실패 시 콜백 함수 지정
 
-dbus.mainloop.glib.DBusGMainLoop(set_as_default=True) # d-bus 신호를 mainloop이 이해할 수 있게 변환하고, 이를 mainloop이 처리하도록 설정
-bus = dbus.SystemBus()
-# we're assuming the adapter supports advertising
-adapter_path = bluetooth_constants.BLUEZ_NAMESPACE + bluetooth_constants.ADAPTER_NAME # 어댑터 경로 설정
-print(adapter_path)
+if __name__ == '__main__':
+    dbus.mainloop.glib.DBusGMainLoop(set_as_default=True) # d-bus 신호를 mainloop이 이해할 수 있게 변환하고, 이를 mainloop이 처리하도록 설정
+    bus = dbus.SystemBus()
+    # we're assuming the adapter supports advertising
+    adapter_path = bluetooth_constants.BLUEZ_NAMESPACE + bluetooth_constants.ADAPTER_NAME # 어댑터 경로 설정
+    print(adapter_path)
 
-# dbus.Interface: 상대방(BlueZ)이 제공하는 메서드를 파이썬 함수처럼 직접 호출할 수 있게 하는 프록시 객체 반환.
-adv_mgr_interface = dbus.Interface(bus.get_object(bluetooth_constants.BLUEZ_SERVICE_NAME,adapter_path), bluetooth_constants.ADVERTISING_MANAGER_INTERFACE) # bus.getObject()로 받아온 서비스 전체 주소에서, 광고 관리(AdvertisingManager1) 관련 기능만 모아줌.
+    # dbus.Interface: 상대방(BlueZ)이 제공하는 메서드를 파이썬 함수처럼 직접 호출할 수 있게 하는 프록시 객체 반환.
+    adv_mgr_interface = dbus.Interface(bus.get_object(bluetooth_constants.BLUEZ_SERVICE_NAME,adapter_path), bluetooth_constants.ADVERTISING_MANAGER_INTERFACE) # bus.getObject()로 받아온 서비스 전체 주소에서, 광고 관리(AdvertisingManager1) 관련 기능만 모아줌.
 
-# we're only registering one advertisement object so index (arg2) is hard coded as 0
-adv = Advertisement(bus, 0, 'peripheral')
-start_advertising()
+    # we're only registering one advertisement object so index (arg2) is hard coded as 0
+    adv = Advertisement(bus, 0, 'peripheral')
+    start_advertising()
 
-print("Advertising as "+adv.local_name)
+    print("Advertising as "+adv.local_name)
 
-# 혼자 있다면 단순히 프로그램이 무한루프를 돌게 하는 코드. 아직은 d-bus 신호 받을 줄 모름.
-# DBusGMainLoop이 d-bus의 이벤트를 mainloop이 이해할 수 있는 신호로 변환해, 루프가 d-bus를 통해 들어오는 모든 호출(ex. BlueZ의 광고 객체 요청)을 처리할 수 있게 함.
-mainloop = GLib.MainLoop()
-mainloop.run()
+    import data_handler
+    GLib.timeout_add(1000, data_handler.run_update, adv)
+
+    # 혼자 있다면 단순히 프로그램이 무한루프를 돌게 하는 코드. 아직은 d-bus 신호 받을 줄 모름.
+    # DBusGMainLoop이 d-bus의 이벤트를 mainloop이 이해할 수 있는 신호로 변환해, 루프가 d-bus를 통해 들어오는 모든 호출(ex. BlueZ의 광고 객체 요청)을 처리할 수 있게 함.
+    mainloop = GLib.MainLoop()
+    mainloop.run()
