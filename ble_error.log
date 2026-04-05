@@ -1,0 +1,112 @@
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
+Traceback (most recent call last):
+  File "/home/rasp5/opensrc5/server_advertising.py", line 98, in <module>
+    adv = Advertisement(bus, 0, 'peripheral')
+  File "/home/rasp5/opensrc5/server_advertising.py", line 32, in __init__
+    dbus.String(bluetooth_constants.ENVIRONMENT_SENSING_UUID): dbus.ByteArray([0xF6, 0x09, 0xA0, 0x0F, 0x02, 0x96, 0x00, 0x58, 0x02, 0xF0, 0x0B, 0x0c, 0x66], signature='sv')
+                                                               ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __new__() got an unexpected keyword argument 'signature'
