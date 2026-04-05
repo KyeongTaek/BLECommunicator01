@@ -1,0 +1,194 @@
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as Opensrc_team5
+{'Type': 'peripheral', 'LocalName': dbus.String('Opensrc_team5'), 'ServiceUUIDs': dbus.Array(['0', '0', '0', '0', '1', '8', '1', 'a', '-', '0', '0', '0', '0', '-', '1', '0', '0', '0', '-', '8', '0', '0', '0', '-', '0', '0', '8', '0', '5', 'f', '9', 'b', '3', '4', 'f', 'b'], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({'0000181a-0000-1000-8000-00805f9b34fb': dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as T5
+{'Type': 'peripheral', 'LocalName': dbus.String('T5'), 'ServiceUUIDs': dbus.Array(['1', '8', '1', 'a'], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({'181a': dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as T5
+{'Type': 'peripheral', 'LocalName': dbus.String('T5'), 'ServiceUUIDs': dbus.Array(['1', '8', '1', 'a'], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({'181a': dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as T5
+{'Type': 'peripheral', 'LocalName': dbus.String('T5'), 'ServiceUUIDs': dbus.Array(['1', '8', '1', 'a'], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({'181a': dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as T5
+{'Type': 'peripheral', 'LocalName': dbus.String('T5'), 'ServiceUUIDs': dbus.Array(['1', '8', '1', 'a'], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({'181a': dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as T5
+{'Type': 'peripheral', 'LocalName': dbus.String('T5'), 'ServiceUUIDs': dbus.Array(['1', '8', '1', 'a'], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({'181a': dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as T5
+{'Type': 'peripheral', 'LocalName': dbus.String('T5'), 'ServiceUUIDs': dbus.Array(['1', '8', '1', 'a'], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({'181a': dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as T5
+{'Type': 'peripheral', 'LocalName': dbus.String('T5'), 'ServiceUUIDs': dbus.Array(['1', '8', '1', 'a'], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({'181a': dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as T5
+{'Type': 'peripheral', 'LocalName': dbus.String('T5'), 'ServiceUUIDs': dbus.Array(['1', '8', '1', 'a'], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({'181a': dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as T5
+{'Type': 'peripheral', 'LocalName': dbus.String('T5'), 'ServiceUUIDs': dbus.Array(['1', '8', '1', 'a'], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({'181a': dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as T5
+{'Type': 'peripheral', 'LocalName': dbus.String('T5'), 'ServiceUUIDs': dbus.Array(['1', '8', '1', 'a'], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({'181a': dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as T5
+{'Type': 'peripheral', 'LocalName': dbus.String('T5'), 'ServiceUUIDs': dbus.Array(['1', '8', '1', 'a'], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({dbus.String('181a'): dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as T5
+{'Type': 'peripheral', 'LocalName': dbus.String('T5'), 'ServiceUUIDs': dbus.Array([dbus.String('181a')], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({dbus.String('181a'): dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as T5
+{'Type': 'peripheral', 'LocalName': dbus.String('T5'), 'ServiceUUIDs': dbus.Array([dbus.String('181a')], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({dbus.String('181a'): dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Changing power on succeeded
+Program Started!
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as Opensrc_team5
+{'Type': 'peripheral', 'LocalName': dbus.String('Opensrc_team5'), 'ServiceUUIDs': dbus.Array([dbus.String('181a')], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({dbus.String('181a'): dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Changing power on succeeded
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as Opensrc_team5
+{'Type': 'peripheral', 'LocalName': dbus.String('Opensrc_team5'), 'ServiceUUIDs': dbus.Array([dbus.String('181a')], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({dbus.String('181a'): dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Changing power on succeeded
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as Opensrc_team5
+{'Type': 'peripheral', 'LocalName': dbus.String('Opensrc_team5'), 'ServiceUUIDs': dbus.Array([dbus.String('181a')], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({dbus.String('181a'): dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+Changing power on succeeded
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as Opensrc_team5
+{'Type': 'peripheral', 'LocalName': dbus.String('Opensrc_team5'), 'ServiceUUIDs': dbus.Array([dbus.String('181a')], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({dbus.String('181a'): dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 Name: raspberrypi
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 Alias: raspberrypi
+Failed to set power on: org.bluez.Error.Busy
+Changing power on succeeded
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as Opensrc_team5
+{'Type': 'peripheral', 'LocalName': dbus.String('Opensrc_team5'), 'ServiceUUIDs': dbus.Array([dbus.String('181a')], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({dbus.String('181a'): dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 UUIDs: 00001801-0000-1000-8000-00805f9b34fb
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 UUIDs: 00001800-0000-1000-8000-00805f9b34fb
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 UUIDs: 0000112d-0000-1000-8000-00805f9b34fb
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 UUIDs: 00001200-0000-1000-8000-00805f9b34fb
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 UUIDs: 0000110c-0000-1000-8000-00805f9b34fb
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 UUIDs: 0000110e-0000-1000-8000-00805f9b34fb
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 UUIDs: 0000180a-0000-1000-8000-00805f9b34fb
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 UUIDs: 00001801-0000-1000-8000-00805f9b34fb
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 UUIDs: 00001800-0000-1000-8000-00805f9b34fb
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 UUIDs: 0000112d-0000-1000-8000-00805f9b34fb
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 UUIDs: 00001200-0000-1000-8000-00805f9b34fb
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 UUIDs: 0000110c-0000-1000-8000-00805f9b34fb
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 UUIDs: 0000110e-0000-1000-8000-00805f9b34fb
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 UUIDs: 0000180a-0000-1000-8000-00805f9b34fb
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 Name: raspberrypi
+[[0;93mCHG[0m] Controller DC:A6:32:C5:DD:57 Alias: raspberrypi
+Failed to set power on: org.bluez.Error.Busy
+Changing power on succeeded
+/org/bluez/hci0
+Registering advertisement /org/bluez/example/advertisement0
+Advertising as Opensrc_team5
+{'Type': 'peripheral', 'LocalName': dbus.String('Opensrc_team5'), 'ServiceUUIDs': dbus.Array([dbus.String('181a')], signature=dbus.Signature('s')), 'ServiceData': dbus.Dictionary({dbus.String('181a'): dbus.ByteArray(b'\xf6\t\xa0\x0f\x02\x96\x00X\x02\xf0\x0b\x0cf')}, signature=dbus.Signature('sv'))}
+Advertisement registered OK
