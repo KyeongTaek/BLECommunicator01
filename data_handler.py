@@ -5,7 +5,6 @@ import struct
 import time
 import csv
 import smbus2
-import server_advertising
 
 bus = smbus2.SMBus(1)
 init_ens160(bus)
@@ -23,10 +22,12 @@ def make_packet(temp, humi, aqi, tvoc, eco2):
 
 prev_data = None
 
-def update_ble(packet):
-    server_advertising.adv.update_service_data(packet) #패킷 전달
+def update_ble(adv, packet):
+    adv.update_service_data(packet) #패킷 전달
 
-while True:
+def run_update(adv):
+    global prev_data
+
     try:
         aht = get_aht21()
         ens = get_ens160(bus)
@@ -49,11 +50,10 @@ while True:
                 writer = csv.writer(f)
                 writer.writerow([time.time(), temp, humi, aqi, tvoc, eco2])
 
-            update_ble(packet)
+            update_ble(adv, packet)
             prev_data = data_tuple
-
-        time.sleep(1)
+        return True
 
     except Exception as e:
         print("에러:", e)
-        time.sleep(1)
+        return True
