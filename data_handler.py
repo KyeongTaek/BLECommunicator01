@@ -25,7 +25,7 @@ prev_data = None
 def update_ble(adv, packet):
     adv.update_service_data(packet) #패킷 전달
 
-def run_update(adv):
+def run_update(adv): # 무한 루프 대신, 함수로 만듦
     global prev_data
 
     try:
@@ -52,8 +52,8 @@ def run_update(adv):
 
             update_ble(adv, packet)
             prev_data = data_tuple
-        return True
+        return True # server_advertising.py에서 주기적으로 실행되도록(GLib 루프 안 끝나도록) True 반환
 
     except Exception as e:
         print("에러:", e)
-        return True
+        return False
